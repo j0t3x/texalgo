@@ -2,7 +2,7 @@
 project (libraries)
 
 # Add a library with the above sources
-add_library(${PROJECT_NAME} src/list.cpp)
+add_library(${PROJECT_NAME} src/maxsubsum.cpp)
 add_library(li::bs ALIAS ${PROJECT_NAME})
 
 target_include_directories( ${PROJECT_NAME}
